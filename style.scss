@@ -110,6 +110,8 @@ nav {
 .tags {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+
   margin: 6px 0 6px 0;
   p {
     margin-right: 6px;

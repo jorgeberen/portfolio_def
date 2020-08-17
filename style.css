@@ -82,12 +82,30 @@ nav #web-name {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.portfolio-items h1 {
-  font-family: "Space Mono", monospace;
-  padding-top: 2em;
-  padding-bottom: 0.4em;
+.portfolio-items .title-holder {
   text-align: center;
-  font-size: calc(1.125vw + 16.4px);
+  margin-top: 2em;
+  margin-bottom: 0.4em;
+}
+
+.portfolio-items h1 {
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-size: calc(1.375vw + 29.6px);
+  text-decoration: underline;
+  text-decoration-thickness: 26px;
+  -webkit-text-decoration-color: rgba(0, 238, 255, 0.5);
+          text-decoration-color: rgba(0, 238, 255, 0.5);
+  text-underline-offset: -10px;
+  text-decoration-skip-ink: none;
+}
+
+.portfolio-items a {
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: #00eeff;
+          text-decoration-color: #00eeff;
+  text-underline-offset: 3px;
 }
 
 .tags {

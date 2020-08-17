@@ -95,15 +95,39 @@ nav {
 
 .portfolio-items {
   font-family: "Source Sans Pro", sans-serif;
-
+  .title-holder {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+  }
   h1 {
+    display: inline-block;
     font-family: "Space Mono", monospace;
     // font-family: "Source Sans Pro", sans-serif;
 
-    padding-top: 2em;
-    padding-bottom: 0.4em;
     text-align: center;
-    @include fluid("font-size", 20, 38);
+    @include fluid("font-size", 34, 56);
+    // background-image: linear-gradient(
+    //   transparent 0%,
+    //   transparent calc(80% - 20px),
+    //   rgb(0, 238, 255) calc(40% - 20px),
+    //   rgba(0, 238, 255, 1) 80%
+    // );
+    // background-image: linear-gradient(
+    //   rgb(144, 238, 144),
+    //   rgba(144, 238, 144, 1)
+    // );
+    text-decoration: underline;
+    text-decoration-thickness: 26px;
+    text-decoration-color: rgba(0, 238, 255, 0.5);
+    text-underline-offset: -10px;
+    text-decoration-skip-ink: none;
+  }
+
+  a {
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(0, 238, 255);
+    text-underline-offset: 3px;
   }
 }
 
